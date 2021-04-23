@@ -1,8 +1,5 @@
-/DF-GAN-master/test
-/DF-GAN-master/data
-/AttnGAN-master/data
-/AttnGAN-master/notebook_imp
-/AttnGAN-master/output
-/AttnGAN-master/output_coco
-/AttnGAN-master/models
-/DF-GAN-master/code/models
+/AttnGAN/data
+/AttnGAN/models
+/AttnGAN/notebook_imp
+/DF-GAN/data
+/DF-GAN/test/valid/single
