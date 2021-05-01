@@ -22,4 +22,4 @@
 - We compute FID for CUB and coco using [DM-GAN/eval/FID](https://github.com/MinfengZhu/DM-GAN/tree/master/eval/FID). 
 
 **Generation:**
-- Check gensamples.txt
+- Check gensample.txt
