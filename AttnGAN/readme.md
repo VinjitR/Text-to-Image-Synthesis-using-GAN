@@ -51,4 +51,13 @@ In addition, please add the project folder to PYTHONPATH and `pip install` the f
 
 **Validation**
 - To generate images for all captions in the validation dataset, change B_VALIDATION to True in the eval_*.yml. and then run `python main.py --cfg cfg/eval_coco.yml --gpu 1`
-- We compute inception score for models trained on coco using [improved-gan/inception_score](https://github.com/openai/improved-gan/tree/master/inception_score).
+- We compute inception score for models  [improved-gan/inception_score](https://github.com/openai/improved-gan/tree/master/inception_score).
+- We compute FID score for models [mseitzer/pytorch-fid](https://github.com/mseitzer/pytorch-fid)
+- @misc{Seitzer2020FID,
+  author={Maximilian Seitzer},
+  title={{pytorch-fid: FID Score for PyTorch}},
+  month={August},
+  year={2020},
+  note={Version 0.1.1},
+  howpublished={\url{https://github.com/mseitzer/pytorch-fid}},
+}
